@@ -8,7 +8,6 @@ func checkNumber(num string) int {
 
 	arr := [10]string{"malik", "gujjar", "khan", "chaudary", "sindi", "balochi", "qureshi", "qazi", "awan", "Pashto"}
 	for i := 0; i < len(arr); i++ {
-
 		if arr[i] == num {
 			return i
 		}
